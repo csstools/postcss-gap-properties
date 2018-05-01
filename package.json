@@ -1,0 +1,18 @@
+{
+  "name": "postcss-gap-properties-codepen",
+  "version": "1.0.0",
+  "scripts": {
+    "browser": "browserify browser.js | babel --presets=env | uglifyjs --compress > browser.bundle.js; gzip-size browser.bundle.js",
+    "start": "browserify codepen.js | babel --presets=env | uglifyjs --compress > codepen.bundle.js; gzip-size codepen.bundle.js"
+  },
+  "dependencies": {
+    "postcss": "^6.0.22"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "browserify": "^16.2.0",
+    "gzip-size-cli": "^2.1.0",
+    "uglify-js": "^3.3.23"
+  },
+  "private": true
+}
