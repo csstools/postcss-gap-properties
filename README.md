@@ -1,3 +1,6 @@
+<div align="center">⚠️ PostCSS Gap Properties was moved to <a href="https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-gap-properties">@csstools/postcss-plugins</a>. ⚠️ <br>
+<a href="https://github.com/csstools/postcss-plugins/discussions/75">Read the announcement</a></div>
+
 # PostCSS Gap Properties [<img src="https://postcss.github.io/postcss/logo.svg" alt="PostCSS Logo" width="90" height="90" align="right">][postcss]
 
 [![NPM Version][npm-img]][npm-url]
